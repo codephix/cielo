@@ -1,0 +1,23 @@
+{
+  "name": "codephix/cielo",
+  "type"       : "library",
+  "description": "Asaas.com PHP API Wrapper",
+  "keywords"   : ["Cielo", "API", "Payment SaaS", "Credit Card", "Boleto"],
+  "homepage": "http://www.codephix.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Max Alex",
+      "email": "contato@codephix.com",
+      "homepage": "https://www.codephix.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodePhix\\Cielo\\": "src"
+    }
+  }
+}
