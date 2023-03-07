@@ -1,23 +1,21 @@
 {
-  "name": "codephix/cielo",
-  "type"       : "library",
-  "description": "Asaas.com PHP API Wrapper",
-  "keywords"   : ["Cielo", "API", "Payment SaaS", "Credit Card", "Boleto"],
-  "homepage": "http://www.codephix.com",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Max Alex",
-      "email": "contato@codephix.com",
-      "homepage": "https://www.codephix.com"
-    }
-  ],
-  "require": {
-    "php": ">=7.2"
-  },
   "autoload": {
-    "psr-4": {
-      "CodePhix\\Cielo\\": "src"
+    "psr-0": {
+      "Cielo": "src"
     }
-  }
+  },
+  "name": "codephix/api-3.0-php",
+  "description": "Integração com a API 3.0 da Cielo",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=5.6",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "psr/log":"^1.1"
+  },
+  "suggest": {
+    "monolog/monolog": "Allows more advanced logging of the application flow"
+  },
+  "homepage": "https://github.com/DeveloperCielo/API-3.0-PHP"
 }
